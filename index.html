@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<!-- begin::Head -->
+	<head>
+		<meta charset="utf-8" />
+		<title>Heyalink | Connexion</title>
+		<meta name="description" content="Login page heyalink">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!--begin::Fonts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+		<script>
+			WebFont.load({
+				google: {
+					"families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"]
+				},
+				active: function() {
+					sessionStorage.fonts = true;
+				}
+			});
+		</script>
+
+		<!--end::Fonts -->
+
+		<!--begin::Page Custom Styles(used by this page) -->
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5d6cebbd26.js" crossorigin="anonymous"></script>
+		<!--end::Page Custom Styles -->
+
+		<!--begin::Global Theme Styles(used by all pages) -->
+
+		<!--end::Global Theme Styles -->
+		<link rel="shortcut icon" href="https://fr.heyalink.com/assets/media/logos/heyalink-favicon.png" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157367096-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-157367096-3');
+		</script>
+	</head>
+
+	<!-- end::Head -->
+
+	<!-- begin::Body -->
+	<body class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--fixed kt-subheader--enabled kt-subheader--solid kt-aside--enabled kt-aside--fixed kt-page--loading body1">
+
+		<!-- begin:: Page -->
+		<div class="kt-grid kt-grid--ver kt-grid--root">
+			<div class="kt-grid kt-grid--hor kt-grid--root  kt-login kt-login--v6 kt-login--signin" id="kt_login">
+				<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--desktop kt-grid--ver-desktop kt-grid--hor-tablet-and-mobile">
+					
+						<div class="kt-login__wrapper">
+							<div class="kt-login__container">
+								<div class="kt-login__body">
+									<div class="kt-login__logo">
+										<a href="#">
+											<img src="logo_heyalink.png">
+										</a>
+									</div>
+									<div class="kt-login__signin">
+                                        <div class="kt-login__btn">
+                                            <button id="btn-con">Connectez-vous</button>
+                                            <button id="btn-ins">Inscrivez-vous</button>
+                                        </div>
+										<div class="kt-login__form">
+                                            
+                                            <form id="syn_login_form" class="kt-form" method="POST" action="https://fr.heyalink.com/login"> 
+                                                <div class="kt-login_head">
+                                                    <h3 class="kt-login__title">Connectez-vous !</h3>
+                                                </div>
+                                                <input type="hidden" name="_token" value="gi2Xtufduy9kGT7eQKirtusarLzxLHS6qKrlw6NP">												<div class="form-group">
+                                                    <input id="email" type="email" class="form-control form-control-first" name="email" value="" placeholder="Email" required autofocus> 
+                                                    												</div>
+												<div class="form-group">
+                                                    
+												<input id="password1" type="password" class="form-control form-control-last" name="password" placeholder="Mot de passe" required>
+                                                    												</div>
+												<div class="kt-login__extra">
+													<label class="kt-checkbox">
+														<input class="form-check-input" type="checkbox" name="remember" id="remember" > Mémoriser
+														<span></span>
+                                                    </label>
+														
+												<a href="javascript:;" id="kt_login_forgot">Mot de passe oublié ?</a>
+												</div>
+												<div class="kt-login__actions">
+													<div class="col-xs-12">
+														<button id="kt_login_signin_submit" class="btn btn-brand btn-pill btn-elevate" type="submit">Se connecter <i class="fa-solid fa-arrow-right"></i></button>
+													</div>
+                                                    
+													<div class="col-xs-12 kt-margin-t-20">
+														<p>Vous n'avez pas encore de compte?<a href="https://fr.heyalink.com/inscription" class="kt-login__account-link btn btn-warning btn-elevate btn-pill kt-font-light">Inscrivez-vous</a></p>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+
+								</div>
+								<div class="footer">
+                                    <div class="kt-login__media">
+                                        <p>Retrouvez-nous sur <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span> <span><a href="#"><i class="fa-brands fa-twitter"></i></a></span> <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span> <span><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></span></p>
+                                    </div>
+                                    <article class="review">
+                                        <div class="review-card__img">
+                                            <img src="" alt="profil picture" id="person-img">
+                                        </div>
+                                        <div class="review-card__head">
+                                        <div class="review-card__name">
+                                            <h4 id="author">userName</h4>                                       
+											<div class="review-card__job"><p id="job">job</p></div>
+                                        </div>
+                                        <div class="rewiew-card__btn">
+											<button class="prev-btn rev-btn"> <i class="fa-solid fa-arrow-left-long"></i> </button>
+                                            <button class="next-btn rev-btn"> <i class="fa-solid fa-arrow-right-long"></i> </button>
+                                        </div>
+                                        </div>
+                                        <div id="info" class="review-card__infos">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At in esse voluptas tenetur ab iste sint dolores.</p></div>
+                                    </article>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+		<!-- end:: Page -->
+
+		<!-- begin::Global Config(global config for global JS sciprts) -->
+		
+		
+		<script type="text/javascript">
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+    vgo('setAccount', '1001323818');
+    vgo('setTrackByDefault', true);
+
+    vgo('process');
+</script>
+
+		
+		
+		<script>
+			var KTAppOptions = {
+				"colors": {
+					"state": {
+						"brand": "#5d78ff",
+						"dark": "#282a3c",
+						"light": "#ffffff",
+						"primary": "#5867dd",
+						"success": "#34bfa3",
+						"info": "#36a3f7",
+						"warning": "#ffb822",
+						"danger": "#fd3995"
+					},
+					"base": {
+						"label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+						"shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+					}
+				}
+			};
+		</script>
+
+		<script src="https://fr.heyalink.com/assets/plugins/global/plugins.bundle.js" type="text/javascript"></script>
+		<script src="https://fr.heyalink.com/assets/js/scripts.bundle.js" type="text/javascript"></script>
+		<script src="https://fr.heyalink.com/assets/js/pages/custom/login/login-general.js" type="text/javascript"></script>
+		<script src="https://fr.heyalink.com/assets/js/custom/jquery_validation_messages_fr.js" type="text/javascript"></script>
+		<script>
+			$().ready(function(){
+				$('#syn_login_form').validate({
+					rules: { 
+						email: {
+							required: true,
+							email: true
+						},
+						password: {
+							required: true,
+							minlength: 8
+						}, 
+					},
+					messages: {
+						password: 'Veuillez entrer au moins 8 caractères',
+						password_confirmation: 'Veuillez confirmer votre mot de passe'
+					}
+				});
+
+				$('#syn_signup_form').validate({
+					rules: {
+						last_name: {
+							required: true,
+							maxlength: 30
+						},
+						name: {
+							required: true,
+							maxlength: 30
+						},
+						email: {
+							required: true,
+							email: true
+						},
+						password: {
+							required: true,
+							minlength: 8
+						},
+						password_confirmation: {
+							required: true,
+							minlength: 8,
+							equalTo: "#password"
+						},
+						accepte_conditions: {
+							required: true
+						}
+					},
+					messages: {
+						password: 'Veuillez entrer au moins 8 caractères',
+						password_confirmation: 'Veuillez confirmer votre mot de passe'
+					}
+				});
+			});
+			
+		</script>
+		<script src="rev.js"></script>
+	</body>
+
+	<!-- end::Body -->
+</html>

@@ -1,0 +1,413 @@
+@font-face
+{
+    font-family: "poppins";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+*{
+    margin: 0;
+    font-family: "Poppins";
+}
+body{
+    background: url(visuel_bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.kt-login__signin{
+    padding-top: 40px;
+}
+.kt-login__logo{
+    width: 50%; 
+    height: auto;
+    padding: 90px 0;
+}
+.kt-login__body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kt-login__logo img{
+    width: 72%;
+    height: auto;
+}
+
+.kt-login__signin form , .kt-login__signup{
+width: 440px;
+box-shadow: 0 0 10px rgba(120, 120, 192, 0.32);
+border-radius: 25px;
+background-color: #ffffff;
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 10px 0;
+}
+
+.kt-login__signup{
+    height: 250px;
+}
+.kt-login__signup form{
+        width: 100%;
+        background: #fff;
+        border-bottom-left-radius: 2em;
+        border-bottom-right-radius: 2em;
+}
+.form-group input {
+width: 90%;
+height: 48px;
+border-radius: 10px;
+border: 1px solid rgba(157, 166, 192, 0.5);
+margin: auto;
+margin-top: 10px;
+
+}
+
+.kt-login__title{
+    width: 100%;
+    color: #3c4353;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-right: 50px;
+}
+.form-group i{
+width: 20px;
+}
+.kt-login.kt-login--v6 .kt-login__aside .kt-login__wrapper .kt-login__container .kt-login__head .kt-login__desc{
+    font-size: 1rem;
+    color: #74788d;
+    font-weight: 400;
+    margin-top: 1rem;
+text-align: center;
+}
+.kt-login__btn{
+display: flex;
+justify-content: end;
+padding-bottom: 50px;
+padding-top: 40px;
+}
+.kt-login__btn button{
+width: 150px;
+height: 35px;
+border-radius: 10px;
+border: none;
+color: #3c4353;
+font-size: 15px;
+font-weight:500;
+text-align: center;
+margin-left: 10px;
+}
+#btn-ins{
+    background-color: #ffad00;
+    color: #ffffff;
+}
+.kt-login__account.kt-margin-t-20{
+    padding: 15px 0;
+}
+.kt-login__extra{
+padding-left: 10px;
+color: #585e70;
+font-size: 15px;
+font-weight: 500;
+display: flex;
+justify-content: space-around;
+margin-top: 10px ;
+}
+.kt-login__extra a{
+color: #585e70;
+text-decoration: none;
+}
+.kt-login__signup .text-muted{
+color: #9da6c0;
+font-size: 13px;
+display: block;
+}
+.kt-login__signup .col-xs-12.kt-margin-t-20 {
+color :#585e70;
+font-weight: lighter;
+padding: 10px 0 
+}
+.kt-login__signup .col-xs-12.kt-margin-t-20 a {
+    color:  #0aa8d6;
+    }
+.btn i{
+color: white;
+padding-left: 10px;
+}
+.btn-brand{
+    width: 366px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    height: 53px;
+    border-radius: 27px;
+    margin-top: 30px ;
+    background-color: #0aa8d6;
+    border: none ;
+    transition: 0.5s;
+}
+.btn-brand:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.kt-login__signup{
+    margin-top: 60px;
+}
+.kt-login__signin .kt-margin-t-20{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25%;
+    font-weight: 500;
+    padding: 0 10px;
+    color: #585e70;
+    border-top: solid 1px #ced2df;
+}
+.kt-login__signin .kt-margin-t-20 a{
+    color: #0aa8d6;
+    margin-left: 5px;
+}
+.kt-login__signin .kt-margin-t-20 p{
+    padding: 10px 0;
+    color: #d6dcf0 ;
+}
+
+.kt-login__media{
+    position: absolute;
+    color: #ffffff;
+    bottom: 32px;
+    right: 100px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.kt-login__media i{
+color: #ffffff;
+padding: 2px;
+}
+button:hover{
+    cursor: pointer;
+}
+.footer{
+width: 50%;
+height: 100px;
+border-top-right-radius:20px ;
+position: absolute;
+left: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.review-card__name{
+    display: flex;
+}
+.review-card__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+.review-card__head {
+    text-align: center;
+    font-size: 18px;
+
+}
+.review-card__head h4{
+    color: #0aa8d6;
+    margin-right: 9px;
+font-weight: 400;
+}
+#job{
+    color: #d6dcf0;
+}
+.review-card__img {
+    left: -100px;
+    bottom: -70px; 
+    position: relative;
+    width: 40%;
+}
+.review-card__img img{
+    width: 60px;
+}
+
+#info{
+width: 40%;
+color: #9da6c0;
+position: relative;
+font-size: 12px;
+font-weight: 400;
+margin-bottom: 40px;
+}
+.rev-btn{
+    background-color: #ffffff;
+    border: none;
+}
+.kt-login__account-msg .btn{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    padding: 8px 13px;
+    border-radius: 2rem;
+}
+.btn-primary{
+    background-color: #0c80ab;
+    margin-right: 7px;
+}
+.btn-success{
+    background-color: #1dc9b7;
+    margin-left: 7px;
+}
+.review{
+    padding-left: 15%;
+}
+.kt-login__signup .btn-warning{
+    background-color: #ffad00;
+    color: #fff;
+    padding: 9px 39px;
+    border: none;
+    border-radius: 2rem;
+    margin: 7px 0
+}
+.rev-btn i {
+    color: #d6dcf0;
+    font-size: 20px;
+}
+.rev-btn:hover i{
+color: #ffad00;
+}
+.footer{
+    width: 100%;
+    height: 13%;
+    position: absolute;
+left: 0;
+bottom: -120px;
+}
+button, .btn{
+transition: 0.3s;
+}
+button:hover, .btn:hover {
+    filter: brightness(85%);
+    transition: 0.5s;
+}
+.kt-login__signup a:hover , .kt-login__signin a:hover{
+    filter: brightness(75%);
+}
+.kt-login__extra a:hover{
+    color: #0aa8d6;
+    filter: unset;
+}
+@media only screen and  (max-width: 1000px){
+.kt-login__body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+body {
+background-size:cover ;
+}
+
+.kt-login__logo{
+    width: 70%;
+}
+
+.kt-login__logo{
+    width: auto;
+    height: auto;
+    padding: unset;
+
+}
+.kt-login__logo img{
+    width: 90%;   
+    margin: 0 5%;
+}
+.body2 .kt-login__logo{
+    padding: unset;
+}
+.body1 .kt-login__logo img{ 
+    margin: 10%;
+}
+.kt-login__form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.kt-login__signin .kt-login__form form {
+    height: 90%;
+    width: 80%;
+}
+.kt-login__account.kt-margin-t-20{
+    padding: 0;
+    padding-top: 15px;
+}
+.kt-login__signup{
+    margin-top: 20px;
+}
+
+.kt-login__signup{
+    width: 90%;
+    height: auto;
+}
+.kt-login__signin .form-group input , .col-xs-12 button{
+    width: 80%;
+}
+.kt-login__signin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kt-login__btn{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.kt-login__btn button{
+    height: 50px;
+}
+.kt-login__signin .review{
+    position: relative;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    border-radius: 0;
+    background:#ffffff ;
+}
+.kt-login__media{
+    width: 90%;
+    padding:10px ;
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    right: 0;
+    bottom: 150px;
+}
+.footer{
+    position: relative;
+    bottom: -150px;
+}
+
+.review-card__head{
+    width: 100%;
+}
+.footer2{
+bottom: -150px;
+}
+#info{
+    width: unset;
+}
+}
+@media only screen and  (max-width: 750px){
+span.kt-login__account-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kt-login__account-msg .btn{
+    margin: 5px 0;
+}}

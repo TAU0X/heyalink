@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<!-- begin::Head -->
+	<head>
+		<meta charset="utf-8" />
+		<title>Heyalink | Inscription gratuite</title>
+		<meta name="description" content="Login page heyalink">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!--begin::Fonts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+		<script>
+			WebFont.load({
+				google: {
+					"families": ["Poppins:300,400,500,600,700", "Roboto:300,400,500,600,700"]
+				},
+				active: function() {
+					sessionStorage.fonts = true;
+				}
+			});
+		</script>
+<script src="https://kit.fontawesome.com/5d6cebbd26.js" crossorigin="anonymous"></script>
+		<!--end::Fonts -->
+
+		<!--begin::Page Custom Styles(used by this page) -->
+		<!--<link href="https://fr.heyalink.com/assets/css/pages/login/login-6.css" rel="stylesheet" type="text/css" />
+		end::Page Custom Styles -->
+
+		<!--begin::Global Theme Styles(used by all pages)
+		<link href="https://fr.heyalink.com/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="https://fr.heyalink.com/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		end::Global Theme Styles-->
+		<!--<link href="https://prototyp.fr/css-heyalink-tmp/global.css" rel="stylesheet" type="text/css" />-->
+        <link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="https://fr.heyalink.com/assets/media/logos/heyalink-favicon.png" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157367096-3"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-157367096-3');
+		</script>
+	</head>
+
+	<!-- end::Head -->
+
+	<!-- begin::Body -->
+	<body class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--fixed kt-subheader--enabled kt-subheader--solid kt-aside--enabled kt-aside--fixed kt-page--loading body2">
+
+		<!-- begin:: Page -->
+		<div class="kt-grid kt-grid--ver kt-grid--root">
+			<div class="kt-grid kt-grid--hor kt-grid--root  kt-login kt-login--v6 kt-login--signin" id="kt_login">
+				<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--desktop kt-grid--ver-desktop kt-grid--hor-tablet-and-mobile">
+					<div class="kt-grid__item  kt-grid__item--order-tablet-and-mobile-2  kt-grid kt-grid--hor kt-login__aside">
+						<div class="kt-login__wrapper">
+							<div class="kt-login__container">
+								<div class="kt-login__body">
+									<div class="kt-login__logo">
+										<a href="#">
+											<img src="logo_heyalink.png">
+										</a>
+									</div>
+									
+									
+									
+																		
+									<div class="kt-login__signup" style="display:block;">
+										<div class="kt-login__head">
+											<h3 class="kt-login__title">Inscription gratuite</h3>
+											<div class="kt-login__desc">Choisissez une option pour créer un nouveau compte gratuitement</div>
+										</div>
+										<div class="kt-login__account kt-margin-t-20">
+										<span class="kt-login__account-msg">
+							    		    <a href="#"  id="individuel" style="padding-left:1rem !important;padding-right: 1rem !important;" class="btn btn-primary kt-font-light btn-pill mr-2">Compte Individuel </a>
+									        <a href="#" id="entreprise" style="padding-left:1rem !important;padding-right: 1rem !important;" class="btn btn-success kt-font-light btn-pill mr-2">Compte Entreprise  </a>
+			</span><br>
+										 
+									</div>
+									<div class="kt-login__account kt-margin-t-20">
+									  
+										   <div class="col-xs-12 kt-margin-t-20" id="deja_inscrit">
+														Déjà inscrit ? <u><a href=https://fr.heyalink.com/login class="kt-font-bold">S&#039;identifier</a></u>
+													</div>
+										 
+								  </div>		 
+										 
+										<div class="kt-login__form">
+											<form class="kt-form" method="POST" action="https://fr.heyalink.com/register" id="syn_signup_form">
+												<input type="hidden" name="_token" value="TqER4fEQaSr9e8CUYo4tkZmyHLvo1w8kMMUekiJk">												
+										  
+										   
+										    
+									  
+											 	<!--<div class="kt-login__extra" style="display:none">-->
+												  
+												 <!--   <div class="form-check">-->
+												 <!--<input class="form-check-input radioBtnClass" type="radio" name="typecompteuser" id="flexRadioDefault1"  value="1" checked >-->
+             <!--                                     <label class="form-check-label" for="flexRadioDefault1">-->
+             <!--                                       Compte <b>Personnel</b>-->
+             <!--                                     </label>-->
+             <!--                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+             <!--                                     <input class="form-check-input radioBtnClass" type="radio" name="typecompteuser" id="flexRadioDefault2" value="2"   >-->
+             <!--                                         <label class="form-check-label" for="flexRadioDefault2">-->
+             <!--                                         Compte <b >Professionnel</b>-->
+             <!--                                         </label>-->
+             <!--                                         </div>-->
+             <!--                                    	</div>-->
+										
+									 
+									        	<input id="typecompteuser" name="typecompteuser" type="hidden" >
+												
+												<div class="form-group">
+													<input id="last_name" type="text" class="form-control" name="last_name" value="" placeholder="Nom" required autofocus>
+																									</div>
+												<div class="form-group">
+													<input id="name" type="text" class="form-control" name="name" value="" placeholder="Prénom"   autofocus>
+																									</div>
+												<div class="form-group">
+													<input id="email" type="email" class="form-control" name="email" value="" placeholder="Email" required autocomplete="off">
+
+																									</div>
+														
+												<!--<div class="form-group">-->
+												<!--	<input id="raison_social" type="text" class="form-control" name="raison_social"  placeholder="Raison sociale"   autofocus>-->
+												 
+												<!--</div>-->
+												
+												<!--<div class="form-group">-->
+												<!--	<input id="Adresse" type="text" class="form-control" name="Adresse"  placeholder="Adresse"   autofocus>-->
+												 
+												<!--</div>-->
+												<div class="form-group">
+													<input id="siret" type="text" class="form-control" name="Siret"  placeholder="Siret"   autofocus>
+												 
+												</div>
+												<div class="form-group">
+													<input id="password" type="password" class="form-control" name="password" placeholder="Entrez un mot de passe" required>
+													<span class="form-text text-muted">Le mot de passe doit contenir au moins 8 caractères</span>
+
+																									</div>
+												<div class="form-group">
+													<input id="password_confirm" type="password" class="form-control" name="password_confirmation" placeholder="Confirmez le mot de passe" required>
+												</div>
+											 	<div class="kt-login__extra">
+													<label class="kt-checkbox">
+														<input type="checkbox" name="accepte_conditions"  ><a href="https://www.heyalink.com/conditions-generales-dutilisation/"> J&#039;accepte les conditions d&#039;utilisation de la plateforme</a>.
+														<span></span>
+													</label>
+												</div>
+												
+												<div class="kt-login__actions">
+													<div class="col-xs-12">
+														<button id="kt_login_signup_submit" class="btn btn-warning kt-font-light btn-pill btn-elevate btn-hover-primary">Valider</button>
+													</div>
+													<div class="col-xs-12 kt-margin-t-20">
+														Déjà inscrit ? <u><a href=https://fr.heyalink.com/login class="kt-font-bold">S&#039;identifier</a></u>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+                                <div class="footer footer2">
+                                    <div class="kt-login__media">
+                                        <p>Retrouvez-nous sur <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span> <span><a href="#"><i class="fa-brands fa-twitter"></i></a></span> <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span> <span><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></span></p>
+                                    </div>
+                                    <article class="review">
+                                        <div class="review-card__img">
+                                            <img src="" alt="profil picture" id="person-img">
+                                        </div>
+                                        <div class="review-card__head">
+                                        <div class="review-card__name">
+                                            <h4 id="author">userName</h4>                                       
+											<div class="review-card__job"><p id="job">job</p></div>
+                                        </div>
+                                        <div class="rewiew-card__btn">
+											<button class="prev-btn rev-btn"> <i class="fa-solid fa-arrow-left-long"></i> </button>
+                                            <button class="next-btn rev-btn"> <i class="fa-solid fa-arrow-right-long"></i> </button>
+                                        </div>
+                                        </div>
+                                        <div id="info" class="review-card__infos">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At in esse voluptas tenetur ab iste sint dolores.</p></div>
+                                    </article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- end:: Page -->
+
+		<!-- begin::Global Config(global config for global JS sciprts) -->
+		<script type="text/javascript">
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+    vgo('setAccount', '1001323818');
+    vgo('setTrackByDefault', true);
+
+    vgo('process');
+</script>
+		
+		
+		
+		<script>
+			var KTAppOptions = {
+				"colors": {
+					"state": {
+						"brand": "#5d78ff",
+						"dark": "#282a3c",
+						"light": "#ffffff",
+						"primary": "#5867dd",
+						"success": "#34bfa3",
+						"info": "#36a3f7",
+						"warning": "#ffb822",
+						"danger": "#fd3995"
+					},
+					"base": {
+						"label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+						"shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+					}
+				}
+			};
+		</script>
+
+		<script src="https://fr.heyalink.com/assets/plugins/global/plugins.bundle.js" type="text/javascript"></script>
+		<script src="https://fr.heyalink.com/assets/js/scripts.bundle.js" type="text/javascript"></script>
+		
+		<script src="https://fr.heyalink.com/assets/js/custom/jquery_validation_messages_fr.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+			    $('#syn_signup_form').hide();
+			    $('#raison_social').hide();
+			    $('#Adresse').hide();
+			    $('#siret').hide();
+
+				
+				function show_individuel_form(){
+					$('#deja_inscrit').hide();
+					$('#typecompteuser').val(1);
+					$('#individuel').css("background-color", "#FFAD00"); 
+					$('#individuel').css("border-color", "#FFAD00"); 
+					$('#entreprise').css("background-color", "#1dc9b7"); 
+					$('#entreprise').css("border-color", "#1dc9b7"); 
+					$('#syn_signup_form').show();
+					$('#Adresse').fadeOut();
+					$('#siret').fadeOut();
+					$("#last_name").attr("placeholder", "Nom");
+					$("#name").fadeIn();
+				}
+				$( "#individuel" ).click(function() {
+					Cookies.set("typecompteuser", 1)
+					show_individuel_form()
+				});
+				function show_entreprise_form(){
+					$('#deja_inscrit').hide();
+					$('#typecompteuser').val(2);
+					$('#entreprise').css("background-color", "#FFAD00"); 
+					$('#entreprise').css("border-color", "#FFAD00"); 
+					$('#individuel').css("background-color", "#0c80ab"); 
+					$('#individuel').css("border-color", "#0c80ab"); 
+					$('#syn_signup_form').show();
+					$('#Adresse').fadeIn(1000);
+					$('#siret').fadeIn(1000);
+					$("#last_name").attr("placeholder", "Raison sociale");
+					$("#name").fadeOut();
+				}
+				$( "#entreprise" ).click(function() {
+					Cookies.set("typecompteuser", 2)
+					show_entreprise_form()
+				});
+			    
+            //     $("input[type='radio'].radioBtnClass") // select the radio by its id
+            //         .change(function(){ // bind a function to the change event
+            //             if( $(this).is(":checked") ){ // check if the radio is checked
+            //                 var val = $(this).val(); // retrieve the value
+            //                 if(val==2){
+            //              // $('#raison_social').fadeIn(1000);
+        			 //     $('#Adresse').fadeIn(1000);
+        			 //     $('#siret').fadeIn(1000);
+        			 //     $("#last_name").attr("placeholder", "Raison sociale");
+        		  //        $("#name").fadeOut();
+        			      
+        			       
+            //                 }else{
+            //             //$('#raison_social').fadeOut();
+        			 //   $('#Adresse').fadeOut();
+        			 //   $('#siret').fadeOut();
+        			 //    $("#last_name").attr("placeholder", "Nom");
+        			 //      $("#name").fadeIn();
+                              
+            //                 }
+            //             }
+            //         });
+                    
+                    
+			    
+				$('#syn_signup_form').validate({
+					rules: {
+						last_name: {
+							required: true,
+							maxlength: 30
+						},
+						name: {
+							required: false,
+							maxlength: 30
+						},
+						email: {
+							required: true,
+							email: true
+						},
+						password: {
+							required: true,
+							minlength: 8
+						},
+						password_confirmation: {
+							required: true,
+							minlength: 8,
+							equalTo: "#password"
+						},
+						accepte_conditions: {
+							required: true
+						}
+					},
+					messages: {
+						password: 'Veuillez entrer au moins 8 caractères',
+						password_confirmation: 'Veuillez confirmer votre mot de passe'
+					}
+				});
+			});
+		</script>
+		<script src="rev.js"></script>
+	</body>
+
+	<!-- end::Body -->
+</html>
