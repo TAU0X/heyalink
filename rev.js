@@ -1,39 +1,48 @@
 const reviews = [
     {
       id: 1,
-      name: "name1",
-      job: "job1",
+      name: "Patrice Hélie",
+      job: "Dessinateur béton armé",
       img:
-        "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png",
+        "image1.png",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. similique consequatur!"
+        "'J'ai découvert ce nouveau réseau social professionnel dédié au BTP. Il me permet de faire grandir mon réseau et d'avoir accès à des missions pour développer mon business. Je recommande fortement cette plateforme !'"
     },
     {
       id: 2,
-      name: "name2",
-      job: "job2",
+      name: "Vincent Cavuoto",
+      job: "Dessinateur - Formations & outils DAO",
       img:
-        "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png",
+        "image2.png",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. similique consequatur!"
+        "'Heyalink est un très bon réseau dédié au BTP qui permet d'obtenir de très bonnes informations pour notre métier'"
     },
     {
       id: 3,
-      name: "name3",
-      job: "job3",
+      name: "Marion Bachelet",
+      job: "Responsable de formation",
       img:
-        "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png",
+        "image3.jpg",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing. similique consequatur!"
+        "'Je suis inscrite sur HEYALINK depuis plus d’un an maintenant. A l’époque, je recherchais un réseau social avec uniquement des acteurs de la construction pour développer mes connaissances et mon activité, pouvoir lire des publications quotidiennes dont le contenu est approprié à un réseau social de professionnel ! Tout y est.'"
     },
     {
       id: 4,
-      name: "name4",
-      job: "job4",
+      name: "Dany Mercier",
+      job: "Gérant",
       img:
-        "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png",
+        "image4.jpg",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. similique consequatur!"
+        "'Je trouve ce réseau très intéressant. Je peux y consulter des appels d'offres et également publier nos offres d'emploi'"
+    },
+    {
+      id: 5,
+      name: "Nathalie Soares",
+      job: "Gérante",
+      img:
+        "image5.png",
+      text:
+        "'Je ne peux que recommander Heyalink pour la diversité et l'aspect très complet de ce que le site propose. Il est très plaisant d'avoir un réseau social dédié au monde du BTP qui a tendance à être éloigné du digital. A découvrir absolument !'"
     }
   ];
   const img = document.getElementById("person-img");

@@ -12,19 +12,32 @@ body{
     background: url(visuel_bg.jpg);
     background-repeat: no-repeat;
     width: 100%;
+    min-height: 100%;
+    background-size: 120%;
+    position: relative;
 }
 .kt-login__signin{
     padding-top: 40px;
 }
+.kt-login__container {
+    display: flex;
+    flex-direction: column;
+}
 .kt-login__logo{
-    width: 50%; 
+    width: 40%; 
     height: auto;
     padding: 90px 0;
 }
 .kt-login__body{
     display: flex;
+    min-height: 100%;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 20%;
+    margin-bottom: 20px;
+}
+.kt-login__body2{
+    padding-bottom: 17%;
 }
 .kt-login__logo img{
     width: 72%;
@@ -58,18 +71,17 @@ border-radius: 10px;
 border: 1px solid rgba(157, 166, 192, 0.5);
 margin: auto;
 margin-top: 10px;
-
+padding-left: 15px;
 }
 
 .kt-login__title{
     width: 100%;
     color: #3c4353;
     font-family: Poppins;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
-    padding-right: 50px;
 }
 .form-group i{
 width: 20px;
@@ -88,7 +100,6 @@ padding-bottom: 50px;
 padding-top: 40px;
 }
 .kt-login__btn button{
-width: 150px;
 height: 35px;
 border-radius: 10px;
 border: none;
@@ -152,7 +163,7 @@ padding-left: 10px;
     transition: 0.5s;
 }
 .kt-login__signup{
-    margin-top: 60px;
+    margin-top: 2%;
 }
 .kt-login__signin .kt-margin-t-20{
     text-align: center;
@@ -173,30 +184,25 @@ padding-left: 10px;
 }
 
 .kt-login__media{
-    position: absolute;
     color: #ffffff;
-    bottom: 32px;
-    right: 100px;
     font-size: 15px;
     font-weight: 500;
+    display: flex;
+    justify-content: end;
+    width: 90%;
+    position: relative;
+    top: 65px;
+}
+.footer2 .kt-login__media{
+    bottom: 30px;
 }
 .kt-login__media i{
 color: #ffffff;
 padding: 2px;
 }
+
 button:hover{
     cursor: pointer;
-}
-.footer{
-width: 50%;
-height: 100px;
-border-top-right-radius:20px ;
-position: absolute;
-left: 0;
-bottom: 0;
-display: flex;
-justify-content: center;
-flex-direction: column;
 }
 
 .review-card__name{
@@ -210,7 +216,7 @@ flex-direction: column;
 }
 .review-card__head {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 .review-card__head h4{
@@ -223,9 +229,12 @@ font-weight: 400;
 }
 .review-card__img {
     left: -100px;
-    bottom: -70px; 
+    bottom: -65px; 
     position: relative;
-    width: 40%;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
 }
 .review-card__img img{
     width: 60px;
@@ -233,10 +242,10 @@ font-weight: 400;
 
 #info{
 width: 40%;
-color: #9da6c0;
+color: #585e70;;
 position: relative;
 font-size: 12px;
-font-weight: 400;
+font-weight: 500;
 margin-bottom: 40px;
 }
 .rev-btn{
@@ -259,7 +268,10 @@ margin-bottom: 40px;
     margin-left: 7px;
 }
 .review{
-    padding-left: 15%;
+    padding-left: 12%;
+    padding-bottom: 15px;
+    position: relative;
+    bottom: 40px;
 }
 .kt-login__signup .btn-warning{
     background-color: #ffad00;
@@ -276,12 +288,13 @@ margin-bottom: 40px;
 .rev-btn:hover i{
 color: #ffad00;
 }
+
 .footer{
     width: 100%;
-    height: 13%;
-    position: absolute;
-left: 0;
-bottom: -120px;
+    background: url(form.svg);
+    background-repeat: no-repeat;
+    height: 250px;
+    background-size:80% ;
 }
 button, .btn{
 transition: 0.3s;
@@ -297,7 +310,35 @@ button:hover, .btn:hover {
     color: #0aa8d6;
     filter: unset;
 }
-@media only screen and  (max-width: 1100px){
+
+#email-error , #password1-error{
+    color: red;
+    font-size: 12px;
+}
+@media only screen and  (max-width: 1950px){
+    .kt-login__body2{
+        padding-bottom: 12% ;
+    }
+    
+    }
+@media only screen and  (max-width: 1600px){
+.kt-login__body2{
+    padding-bottom: 4% ;
+}
+
+}
+@media only screen and  (max-width: 1400px){
+    .kt-login__body2{
+        padding-bottom: 1% ;
+    }
+    .m2{
+        top : 10px;
+    }
+    .kt-login__signup {
+        margin: unset;
+    }
+    }
+@media only screen and  (max-width: 1250px){
 .kt-login__body{
     flex-direction: column;
     align-items: center;
@@ -316,19 +357,13 @@ background-size:cover ;
 .kt-login__logo{
     width: auto;
     height: auto;
-    padding: unset;
-
 }
 .kt-login__logo img{
     width: 90%;   
     margin: 0 5%;
+    padding: 20px 0;
 }
-.body2 .kt-login__logo{
-    padding: unset;
-}
-.body1 .kt-login__logo img{ 
-    margin: 10%;
-}
+
 .kt-login__form{
     width: 100%;
     display: flex;
@@ -381,25 +416,32 @@ background-size:cover ;
 .kt-login__media{
     width: 90%;
     padding:10px ;
+    position: relative;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     font-size: 16px;
-    right: 0;
-    bottom: 150px;
+    top: 0px;
+    right: 10px;
 }
 .footer{
-    position: relative;
-    bottom: -150px;
+    background: white;
+    bottom:-10%;
+    height: auto;
 }
-
+.review-card__name{
+    flex-direction: column;
+    width: 60%;
+    padding-bottom: 8px;
+}
 .review-card__head{
     width: 100%;
 }
-.footer2{
-bottom: -150px;
-}
 #info{
-    width: unset;
+    width: 80%;
+}
+.review{
+    width: 70%;
+    padding-left: 20%;
 }
 }
 @media only screen and  (max-width: 750px){
@@ -411,3 +453,8 @@ span.kt-login__account-msg{
 .kt-login__account-msg .btn{
     margin: 5px 0;
 }}
+@media only screen and  (max-width: 450px){
+    .review{
+        padding-left: 30%;
+    }
+}
