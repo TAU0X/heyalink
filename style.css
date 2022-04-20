@@ -33,7 +33,7 @@ body{
     min-height: 100%;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 20%;
+    padding-bottom: 23%;
     margin-bottom: 20px;
 }
 .kt-login__body2{
@@ -191,7 +191,7 @@ padding-left: 10px;
     justify-content: end;
     width: 90%;
     position: relative;
-    top: 65px;
+    top:10px;
 }
 .footer2 .kt-login__media{
     bottom: 30px;
@@ -374,6 +374,7 @@ background-size:cover ;
 .kt-login__signin .kt-login__form form {
     height: 90%;
     width: 80%;
+    overflow: hidden;
 }
 .kt-login__account.kt-margin-t-20{
     padding: 0;
@@ -399,10 +400,12 @@ background-size:cover ;
 .kt-login__btn{
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
+    overflow: hidden;
 }
 .kt-login__btn button{
     height: 50px;
+    width: 150px;
 }
 .kt-login__signin .review{
     position: relative;
@@ -427,6 +430,7 @@ background-size:cover ;
     background: white;
     bottom:-10%;
     height: auto;
+    overflow: hidden;
 }
 .review-card__name{
     flex-direction: column;
