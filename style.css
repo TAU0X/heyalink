@@ -438,6 +438,10 @@ background-size:cover ;
 }
 .review-card__head{
     width: 100%;
+    padding-top: 90px;
+}
+.review-card__img{
+    left: 20%;
 }
 #info{
     width: 80%;
