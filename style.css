@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100%;
-    background-size: 120%;
+    background-size: 128%;
     position: relative;
 }
 .kt-login__signin{
@@ -317,19 +317,19 @@ button:hover, .btn:hover {
 }
 @media only screen and  (max-width: 1950px){
     .kt-login__body2{
-        padding-bottom: 12% ;
+        padding-bottom: 13% ;
     }
     
     }
 @media only screen and  (max-width: 1600px){
 .kt-login__body2{
-    padding-bottom: 4% ;
+    padding-bottom: 7% ;
 }
 
 }
 @media only screen and  (max-width: 1400px){
     .kt-login__body2{
-        padding-bottom: 1% ;
+        padding-bottom: 1.3% ;
     }
     .m2{
         top : 10px;
